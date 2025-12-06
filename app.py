@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 # ---------- Parámetros ----------
 LOCAL_MODEL = "fer2013_cnn.h5"  # Tu modelo preentrenado
 EMOJI_FOLDER = "Emojis"         # Carpeta con emojis
-EMOTIONS = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
+EMOTIONS = ['Enojado', 'Disgustado', 'Miedo', 'Feliz', 'Triste', 'Sorpresa', 'Neutral']
 
 # ---------- 1. Verificar modelo ----------
 if not os.path.exists(LOCAL_MODEL):
@@ -75,3 +75,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+

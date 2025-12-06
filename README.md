@@ -6,6 +6,4 @@ python -m venv env
 env\Scripts\activate
 
 // INSTALANDO LAS LIBRERIAS
-
-pip install numpy opencv-python tensorflow
-pip install pillow
+pip install tensorflow opencv-python numpy
